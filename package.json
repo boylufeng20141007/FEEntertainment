@@ -6,7 +6,8 @@
     "version": "3.3.9"
   },
   "scripts": {
-    "dev": "hexo server -i 192.168.33.68"
+    "dev": "hexo server -i 192.168.1.101 -p 8090",
+    "deploy": "hexo d -g"
   },
   "dependencies": {
     "hexo": "^3.2.0",
@@ -18,5 +19,9 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-server": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "ip": "^1.1.5"
   }
 }
