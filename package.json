@@ -6,7 +6,9 @@
     "version": "3.3.9"
   },
   "scripts": {
-    "dev": "hexo server -i 192.168.33.68 -p 4000",
+    "clean": "hexo clean",
+    "generate": "hexo generate",
+    "dev": "hexo server -i 192.168.1.102 -p 8090",
     "publish": "hexo clean && hexo g && hexo d"
   },
   "dependencies": {
