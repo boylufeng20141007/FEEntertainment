@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "hexo clean",
     "generate": "hexo generate",
-    "dev": "hexo server -i 192.168.1.102 -p 9977",
+    "dev": "hexo server -i 192.168.33.68 -p 9977",
     "publish": "hexo clean && hexo g && hexo d"
   },
   "dependencies": {
