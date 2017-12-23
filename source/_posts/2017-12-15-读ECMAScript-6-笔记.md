@@ -36,3 +36,25 @@ Point.prototype = {
   toValue() {}
 }
 ```
+### ES5与ES6的继承实质
+1. ES5的继承，实质是先创建子类的实例对象this，然后再将父类的方法添加到this上面（Parent.apply(this)）。
+2. ES6的继承机制完全不同，实质是先创造父类的实例对象this（所以必须先调用super方法），然后再调用子类的构造函数修改this。
+
+### 父类的静态方法也会被子类继承
+```javascript
+class A {
+  static hello() {
+    console.log('hello ES6');
+  }
+}
+
+class B extends A {
+  // do something
+}
+
+B.hello();  // hello ES6
+```
+### 判断一个类是否继承另一个类的方法
+```javascript
+Object.getPrototypeOf(B) === A  // true
+```
