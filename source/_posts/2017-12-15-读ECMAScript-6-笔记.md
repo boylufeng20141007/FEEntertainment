@@ -1,5 +1,5 @@
 ---
-title: 读ECMAScript 6 笔记
+title: 读ECMAScript 6 class 笔记
 date: 2017-12-15 21:27:45
 tags: JavaScript
 categories: JavaScript
@@ -58,3 +58,9 @@ B.hello();  // hello ES6
 ```javascript
 Object.getPrototypeOf(B) === A  // true
 ```
+### super关键字
+> 1. 可以当做函数使用:
+  第一种情况，super作为函数调用时，代表父类的构造函数。ES6 要求，子类的构造函数必须执行一次super函数。
+
+> 2. 也可以当做对象使用。
+  第二种情况，super作为对象时，在普通方法中，指向父类的原型对象；在静态方法中，指向父类。
