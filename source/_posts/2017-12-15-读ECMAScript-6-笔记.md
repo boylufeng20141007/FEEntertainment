@@ -1,5 +1,5 @@
 ---
-title: 读ECMAScript 6 class 笔记
+title: 读ECMAScript 6 笔记
 date: 2017-12-15 21:27:45
 tags: JavaScript
 categories: JavaScript
@@ -64,3 +64,9 @@ Object.getPrototypeOf(B) === A  // true
 
 > 2. 也可以当做对象使用。
   第二种情况，super作为对象时，在普通方法中，指向父类的原型对象；在静态方法中，指向父类。
+
+### for...in & for ...of 循环的区别
+> 1. for...in 语句以原始插入顺序迭代对象的可枚举属性。
+> 2. for...of 语句遍历可迭代对象定义要迭代的数据。
+
+ [参考链接](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...of)
