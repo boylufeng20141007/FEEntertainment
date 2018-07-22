@@ -4,11 +4,11 @@
 
 # Site
 title: 前端娱乐圈
-subtitle: 前端技术圈
-description: html5 css3  js node.js 网络通信
-author: boylufeng@gmail.com
+subtitle: 技术杂记
+description: HTML CSS Javascript Node.js HTTP
+author: Luxlu(boylufeng@gmail.com)
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
