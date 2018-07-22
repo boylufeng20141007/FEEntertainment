@@ -81,3 +81,6 @@ deploy:
   type: git
   repo: https://github.com/boylufeng20141007/boylufeng20141007.github.io.git
   branch: master
+
+# disqus comment
+# disqus_shortname: luxlu
