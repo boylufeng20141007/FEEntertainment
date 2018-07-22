@@ -3,11 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.3.9"
+    "version": "3.7.1"
   },
   "scripts": {
-    "dev": "hexo server -i 192.168.33.68 -p 8090",
-    "publish": "hexo clean && hexo g && hexo d"
+    "ip": "node --harmony shell/ip.js",
+    "clean": "hexo clean",
+    "generate": "hexo generate",
+    "watch": "hexo generate -w",
+    "dev": "hexo server -p 9977",
+    "publish": "hexo clean && hexo g && hexo d",
+    "debug": "hexo s --debug",
+    "themes": "git clone https://github.com/iissnan/hexo-theme-next next"
   },
   "dependencies": {
     "hexo": "^3.2.0",

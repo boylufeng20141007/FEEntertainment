@@ -8,12 +8,12 @@
 
 var IP = require('ip');
 
-var Port = 8090;
-
 /**
  * 获取本主机IP
  */
 function getHostIP(){
-    return IP.address() || '127.0.0.1';
+    return '当前主机IP：' + IP.address() || '127.0.0.1';
 }
+
+console.log(getHostIP());
 
