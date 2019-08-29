@@ -11,7 +11,7 @@
     "generate": "hexo generate",
     "watch": "hexo generate -w",
     "dev": "hexo server -p 9977",
-    "publish": "hexo clean && hexo g && hexo d",
+    "release": "hexo clean && hexo g && hexo d",
     "debug": "hexo s --debug",
     "themes": "git clone https://github.com/iissnan/hexo-theme-next next"
   },
